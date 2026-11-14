@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a bug in FollowDiff
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please do not include your Instagram username, account data, or session cookies.
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      description: Found in the footer of the side panel (e.g. v0.0.37)
+      placeholder: "0.0.37"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Brave / Chrome and version
+      placeholder: "Brave 1.70"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps. Do not include account-specific data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors (optional)
+      description: DevTools console output if any
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I am not including my Instagram username or account data
+          required: true
+        - label: I searched existing issues
+          required: true
