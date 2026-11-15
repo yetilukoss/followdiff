@@ -11,6 +11,22 @@
 
 ---
 
+## 💭 Why I built this
+
+I'm a private person. I don't want a big following or a big audience — I just want my numbers to match. Following and followers should be the same count. When they're not, I want to know who's not following me back so I can decide what to do about it.
+
+Instagram doesn't show you this clearly. It shows you a count, but not the diff. And every third-party tool I tried wanted my password, sent my data somewhere, or was full of ads.
+
+FollowDiff exists because I wanted a tool that:
+- **Shows the truth** — who doesn't follow back, who your fans are, mutuals, and what changed
+- **Stays on my machine** — no server, no account, no analytics, no telemetry
+- **Is read-only** — it never touches my account, never follows or unfollows anyone
+- **Is honest** — no upsells, no paywalls for basic info, no ads
+
+That's it. A simple, private, honest tool.
+
+---
+
 ## ✨ Features
 
 - **Not back** — people you follow who don't follow you back
@@ -129,6 +145,18 @@ If the difference is large or consistent, open an issue with your follower/follo
 ## 🤝 Contributing
 
 Source code is maintained in a private repository. Bug reports and feature requests are welcome via [Issues](https://github.com/yetilukoss/followdiff/issues).
+
+---
+
+## 📋 Policies
+
+| Document | Description |
+|---|---|
+| [Privacy Policy](PRIVACY.md) | What data is stored, where, and why |
+| [Terms of Service](TERMS.md) | Usage terms and disclaimers |
+| [Disclaimer](DISCLAIMER.md) | Not affiliated with Meta/Instagram |
+| [Security Policy](SECURITY.md) | How to report vulnerabilities |
+| [Code of Conduct](CODE_OF_CONDUCT.md) | Community guidelines |
 
 ---
 
