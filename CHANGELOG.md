@@ -3,6 +3,12 @@
 All notable changes to FollowDiff are documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.0.1-beta] - 2026-11-15
+
+### Changed
+- Set version to 0.0.1-beta (pre-release)
+- All features from previous builds carried over
+
 ## [0.0.1] - 2026-11-15
 
 ### Changed
