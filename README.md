@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/version-0.0.37-2f8f6f)](https://github.com/yetilukoss/followdiff/releases)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-coming%20soon-lightgrey)](https://github.com/yetilukoss/followdiff)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Privacy](https://img.shields.io/badge/privacy-local--only-brightgreen)](PRIVACY.md)
+[![Privacy](https://img.shields.io/badge/privacy-local--only-brightgreen)](policies/PRIVACY.md)
 
 > See who follows you back, who doesn't, and what changed — without sending a single byte off your machine.
 
@@ -75,7 +75,7 @@ FollowDiff talks to Instagram's own web API using your existing session cookies 
 - **No network calls to third parties.** The only network requests are to `instagram.com` and its CDN for avatars.
 - **No account required.** No sign-up, no email, no tracking.
 
-See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
+See [PRIVACY.md](policies/PRIVACY.md) for the full privacy policy.
 
 ---
 
@@ -105,7 +105,7 @@ See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
 - No data collection. No analytics. No telemetry.
 - All data stays in `chrome.storage.local` on your device.
 - Instagram's session cookies are used only to read your lists, never transmitted elsewhere.
-- Full policy: [PRIVACY.md](PRIVACY.md)
+- Full policy: [PRIVACY.md](policies/PRIVACY.md)
 
 ---
 
@@ -152,11 +152,11 @@ Source code is maintained in a private repository. Bug reports and feature reque
 
 | Document | Description |
 |---|---|
-| [Privacy Policy](PRIVACY.md) | What data is stored, where, and why |
-| [Terms of Service](TERMS.md) | Usage terms and disclaimers |
-| [Disclaimer](DISCLAIMER.md) | Not affiliated with Meta/Instagram |
-| [Security Policy](SECURITY.md) | How to report vulnerabilities |
-| [Code of Conduct](CODE_OF_CONDUCT.md) | Community guidelines |
+| [Privacy Policy](policies/PRIVACY.md) | What data is stored, where, and why |
+| [Terms of Service](policies/TERMS.md) | Usage terms and disclaimers |
+| [Disclaimer](policies/DISCLAIMER.md) | Not affiliated with Meta/Instagram |
+| [Security Policy](policies/SECURITY.md) | How to report vulnerabilities |
+| [Code of Conduct](policies/CODE_OF_CONDUCT.md) | Community guidelines |
 
 ---
 
