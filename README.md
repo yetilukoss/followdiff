@@ -28,15 +28,11 @@
 ## 📸 Screenshots
 
 <!-- Replace with real screenshots -->
-| Panel (side view) | Full tab (wide view) |
-|---|---|
-| ![panel](docs/screenshots/panel.png) | ![panel-wide](docs/screenshots/panel-wide.png) |
+### Screenshots
 
-### More views
-
-| Changes | Overlap |
-|---|---|
-| ![changes](docs/screenshots/changes.png) | ![overlap](docs/screenshots/overlap.png) |
+| Panel | Changes | Overlap |
+|---|---|---|
+| ![panel](docs/screenshots/panel.png) | ![changes](docs/screenshots/changes.png) | ![overlap](docs/screenshots/overlap.png) |
 
 ---
 
@@ -111,6 +107,22 @@ Please include your browser, extension version, and steps to reproduce. **Do not
 ## 📋 Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for version history.
+
+---
+
+## ❓ FAQ
+
+### Why does the follower count differ from Instagram's?
+
+Instagram's displayed count and FollowDiff's count can differ for several reasons:
+
+- **Pending requests.** Instagram counts follow requests you've sent or received that haven't been accepted yet. FollowDiff only counts confirmed followers/following.
+- **Deactivated / restricted accounts.** Instagram may still count accounts that have been deactivated or restricted. FollowDiff only sees accounts returned by the API.
+- **Rounding.** Instagram rounds large counts (e.g., "1.2K"). FollowDiff shows exact numbers.
+- **Timing.** Counts change between when you open Instagram and when you sync. A follow/unfollow in between will cause a mismatch.
+- **API pagination.** For very large accounts (1000+), Instagram may truncate or rate-limit pages. FollowDiff stops at 200 pages (10,000 entries) per list and reports what it collected.
+
+If the difference is large or consistent, open an issue with your follower/following counts (not your username).
 
 ---
 
