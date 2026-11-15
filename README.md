@@ -28,9 +28,15 @@
 ## 📸 Screenshots
 
 <!-- Replace with real screenshots -->
-| Panel | Full tab |
+| Panel (side view) | Full tab (wide view) |
 |---|---|
-| ![panel](docs/screenshots/panel.png) | ![tab](docs/screenshots/tab.png) |
+| ![panel](docs/screenshots/panel.png) | ![panel-wide](docs/screenshots/panel-wide.png) |
+
+### More views
+
+| Changes | Overlap |
+|---|---|
+| ![changes](docs/screenshots/changes.png) | ![overlap](docs/screenshots/overlap.png) |
 
 ---
 
