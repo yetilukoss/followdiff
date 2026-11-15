@@ -1,6 +1,6 @@
 # FollowDiff
 
-[![Version](https://img.shields.io/badge/version-0.0.37-2f8f6f)](https://github.com/yetilukoss/followdiff/releases)
+[![Version](https://img.shields.io/badge/version-0.0.1-2f8f6f)](https://github.com/yetilukoss/followdiff/releases)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-coming%20soon-lightgrey)](https://github.com/yetilukoss/followdiff)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Privacy](https://img.shields.io/badge/privacy-local--only-brightgreen)](policies/PRIVACY.md)

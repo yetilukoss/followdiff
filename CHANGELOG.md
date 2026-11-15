@@ -3,6 +3,12 @@
 All notable changes to FollowDiff are documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.0.1] - 2026-11-15
+
+### Changed
+- Reset version numbering to 0.0.1 (new scheme: 0.0.1 → 0.0.9 → 0.1.0 → 0.1.1)
+- All features from 0.0.37 carried over
+
 ## [0.0.37] - 2026-11-14
 
 ### Fixed
